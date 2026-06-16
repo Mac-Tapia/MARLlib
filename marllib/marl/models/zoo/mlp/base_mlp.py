@@ -22,9 +22,8 @@
 
 from ray.rllib.utils.torch_ops import FLOAT_MIN
 from functools import reduce
-import copy
 from ray.rllib.models.torch.torch_modelv2 import TorchModelV2
-from ray.rllib.models.torch.misc import SlimFC, SlimConv2d, normc_initializer
+from ray.rllib.models.torch.misc import SlimFC, normc_initializer
 from ray.rllib.utils.annotations import override
 from ray.rllib.utils.framework import try_import_torch
 from ray.rllib.utils.typing import Dict, TensorType, List

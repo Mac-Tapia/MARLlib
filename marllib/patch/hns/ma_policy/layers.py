@@ -262,7 +262,7 @@ def qkv_embed(inp, heads, n_embd, layer_norm=False, qk_w=1.0, v_w=0.01, reuse=Fa
 
 def circ_conv1d(inp, **conv_kwargs):
     valid_activations = {'relu': tf.nn.relu, 'tanh': tf.tanh, '': None}
-    assert 'kernel_size' in conv_kwargs, f"Kernel size needs to be specified for circular convolution layer."
+    assert 'kernel_size' in conv_kwargs, "Kernel size needs to be specified for circular convolution layer."
     conv_kwargs['activation'] = valid_activations[conv_kwargs['activation']]
 
     # concatenate input for circular convolution

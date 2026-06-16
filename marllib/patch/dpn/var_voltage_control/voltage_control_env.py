@@ -245,7 +245,7 @@ class VoltageControl(MultiAgentEnv):
                 obs = list()
                 zone_buses, zone, pv, q, sgen_bus = clusters[f"sgen{i}"]
                 zone_list.append(zone)
-                if not( zone in obs_zone_dict.keys() ):
+                if zone not in obs_zone_dict.keys():
                     if "demand" in self.state_space:
                         copy_zone_buses = copy.deepcopy(zone_buses)
                         copy_zone_buses.loc[sgen_bus]["p_mw"] += pv

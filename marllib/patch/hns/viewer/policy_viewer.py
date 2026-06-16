@@ -7,9 +7,7 @@ from mujoco_py import const, MjViewer
 from mujoco_worldgen.util.types import store_args
 from marllib.patch.hns.ma_policy.util import listdict2dictnp
 from functools import reduce
-import pdb
 import torch
-import copy
 
 def handle_dict_obs(keys, order_obs, mask_order_obs, dict_obs, num_agents, num_hiders):
     # obs = []

@@ -23,7 +23,7 @@
 import gym
 import numpy as np
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 
 from overcooked_ai_py.mdp.overcooked_env import OvercookedEnv
 from overcooked_ai_py.mdp.overcooked_mdp import (

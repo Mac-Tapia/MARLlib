@@ -20,7 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import copy
 
 from gobigger.envs import create_env_custom
 from gym.spaces import Dict as GymDict, Box

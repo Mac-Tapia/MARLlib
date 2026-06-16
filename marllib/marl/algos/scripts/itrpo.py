@@ -25,12 +25,11 @@ from ray.tune.utils import merge_dicts
 from ray.tune import CLIReporter
 from ray.rllib.models import ModelCatalog
 from marllib.marl.algos.core.IL.trpo import TRPOTrainer
-from ray.rllib.utils.framework import try_import_tf, try_import_torch, get_variable
+from ray.rllib.utils.framework import try_import_torch
 from marllib.marl.algos.utils.setup_utils import AlgVar
 from marllib.marl.algos.utils.log_dir_util import available_local_dir
 from marllib.marl.algos.utils.trust_regions import TrustRegionUpdator
 from marllib.marl.algos.scripts.coma import restore_model
-import json
 from typing import Any, Dict
 from ray.tune.analysis import ExperimentAnalysis
 

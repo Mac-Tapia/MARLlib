@@ -22,7 +22,7 @@
 
 from lbforaging.foraging import ForagingEnv
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 
 policy_mapping_dict = {
     "all_scenario": {

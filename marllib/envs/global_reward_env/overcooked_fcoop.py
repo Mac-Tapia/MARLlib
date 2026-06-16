@@ -20,4 +20,3 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from marllib.envs.base_env.overcooked import RLlibOverCooked as RLlibOverCooked_FCOOP

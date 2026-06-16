@@ -22,7 +22,6 @@
 
 import unittest
 from marllib import marl
-import ray
 
 
 class TestBaseOnMPE(unittest.TestCase):

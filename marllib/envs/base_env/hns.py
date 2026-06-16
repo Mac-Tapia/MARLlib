@@ -22,7 +22,6 @@
 
 from gym.spaces import Dict as GymDict, Box, MultiDiscrete
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from ray.tune.utils import merge_dicts
 from functools import reduce
 
 import numpy as np

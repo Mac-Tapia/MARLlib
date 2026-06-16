@@ -22,7 +22,7 @@
 
 from ray.rllib.models.torch.misc import SlimFC, SlimConv2d, normc_initializer
 from ray.rllib.utils.framework import try_import_torch
-from ray.rllib.utils.typing import Dict, TensorType, List
+from ray.rllib.utils.typing import TensorType, List
 
 torch, nn = try_import_torch()
 

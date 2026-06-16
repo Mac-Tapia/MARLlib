@@ -1,7 +1,5 @@
 import os
-import sys
 import numpy as np
-import math
 import six
 from gym import error
 
@@ -9,7 +7,7 @@ from gym import error
 
 try:
     import pyglet
-except ImportError as e:
+except ImportError:
     raise ImportError(
         """
     Cannot import pyglet.
@@ -21,7 +19,7 @@ except ImportError as e:
 
 try:
     from pyglet.gl import *
-except ImportError as e:
+except ImportError:
     raise ImportError(
         """
     Error occured while running `from pyglet.gl import *`

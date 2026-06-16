@@ -24,10 +24,9 @@ import tree  # pip install dm_tree
 import torch
 import torch.nn as nn
 from gym.spaces import Dict as Gym_Dict
-from ray.rllib.policy.torch_policy import TorchPolicy
 from ray.rllib.policy.policy import Policy
 from ray.rllib.models.modelv2 import _unpack_obs
-from ray.rllib.agents.qmix.model import RNNModel, _get_size
+from ray.rllib.agents.qmix.model import _get_size
 from ray.rllib.execution.replay_buffer import *
 from ray.rllib.models.torch.torch_action_dist import TorchCategorical
 from ray.rllib.utils.metrics.learner_info import LEARNER_STATS_KEY

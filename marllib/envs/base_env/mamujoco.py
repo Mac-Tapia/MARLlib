@@ -22,7 +22,7 @@
 
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
 from multiagent_mujoco.mujoco_multi import MujocoMulti
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 import numpy as np
 import time
 env_args_dict = {

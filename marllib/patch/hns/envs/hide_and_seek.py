@@ -2,8 +2,7 @@ import gym
 import numpy as np
 from copy import deepcopy
 from marllib.patch.hns.envs.base import Base
-from marllib.patch.hns.wrappers.multi_agent import (SplitMultiAgentActions,JoinMultiAgentActions,
-                                           SplitObservations, SelectKeysWrapper)
+from marllib.patch.hns.wrappers.multi_agent import (SplitMultiAgentActions,SplitObservations, SelectKeysWrapper)
 from marllib.patch.hns.wrappers.util import (DiscretizeActionWrapper, ConcatenateObsWrapper,
                                     MaskActionWrapper, SpoofEntityWrapper,
                                     DiscardMujocoExceptionEpisodes,

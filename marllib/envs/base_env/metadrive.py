@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 from metadrive.envs.marl_envs import MultiAgentBottleneckEnv, MultiAgentParkingLotEnv, MultiAgentRoundaboutEnv, \
     MultiAgentIntersectionEnv, MultiAgentTollgateEnv
 from collections import defaultdict

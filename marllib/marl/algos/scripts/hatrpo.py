@@ -29,7 +29,6 @@ from marllib.marl.algos.utils.setup_utils import AlgVar
 from marllib.marl.algos.utils.trust_regions import TrustRegionUpdator
 from marllib.marl.algos.scripts.coma import restore_model
 from ray.rllib.models import ModelCatalog
-import json
 from typing import Any, Dict
 from ray.tune.analysis import ExperimentAnalysis
 

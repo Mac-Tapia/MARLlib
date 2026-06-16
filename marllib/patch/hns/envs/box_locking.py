@@ -18,9 +18,9 @@ from marllib.patch.hns.modules.agents import Agents, AgentManipulation
 from marllib.patch.hns.modules.walls import RandomWalls, WallScenarios
 from marllib.patch.hns.modules.objects import Boxes, Ramps, LidarSites
 from marllib.patch.hns.modules.world import FloorAttributes, WorldConstants
-from marllib.patch.hns.modules.util import uniform_placement, center_placement, centerOrset_placement
+from marllib.patch.hns.modules.util import uniform_placement, center_placement
 from marllib.patch.hns.envs.base import Base
-from marllib.patch.hns.envs.hide_and_seek import uniformOrset_placement,quadrant_placement,outside_quadrant_placement,quadrantOrset_placement
+from marllib.patch.hns.envs.hide_and_seek import uniformOrset_placement,quadrantOrset_placement
 from marllib.patch.hns.wrappers.util import update_obs_space
 
 

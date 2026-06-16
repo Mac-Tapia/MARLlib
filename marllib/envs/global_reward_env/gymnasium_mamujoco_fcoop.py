@@ -20,4 +20,3 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from marllib.envs.base_env.gymnasium_mamujoco import RLlibGymnasiumRoboticsMAMujoco as RLlibGymnasiumRoboticsMAMujoco_FCOOP

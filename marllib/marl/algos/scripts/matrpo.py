@@ -29,7 +29,6 @@ from marllib.marl.algos.utils.log_dir_util import available_local_dir
 from marllib.marl.algos.utils.setup_utils import AlgVar
 from marllib.marl.algos.utils.trust_regions import TrustRegionUpdator
 from marllib.marl.algos.scripts.coma import restore_model
-import json
 from typing import Any, Dict
 from ray.tune.analysis import ExperimentAnalysis
 

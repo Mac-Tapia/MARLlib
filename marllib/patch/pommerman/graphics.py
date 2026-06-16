@@ -28,7 +28,6 @@ Display object. Pyglet only supports multiple Displays on Linux.
 from datetime import datetime
 import math
 import os
-from random import randint
 from time import strftime
 
 # from gym.util import reraise

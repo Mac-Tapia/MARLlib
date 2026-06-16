@@ -22,7 +22,7 @@
 
 import numpy as np
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 import pommerman
 from collections import defaultdict
 import queue
@@ -698,8 +698,8 @@ class SimpleAgent(Bomber):
                                  recently_visited_positions):
         ret = []
         for direction in directions:
-            if not utility.get_next_position(
-                    my_position, direction) in recently_visited_positions:
+            if utility.get_next_position(
+                    my_position, direction) not in recently_visited_positions:
                 ret.append(direction)
 
         if not ret:

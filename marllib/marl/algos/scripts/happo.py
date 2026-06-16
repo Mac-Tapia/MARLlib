@@ -30,7 +30,6 @@ from marllib.marl.algos.utils.log_dir_util import available_local_dir
 from marllib.marl.algos.scripts.coma import restore_model
 from ray.rllib.agents.ppo.ppo import DEFAULT_CONFIG as PPO_CONFIG
 from ray.rllib.models import ModelCatalog
-import json
 from typing import Any, Dict
 from ray.tune.analysis import ExperimentAnalysis
 

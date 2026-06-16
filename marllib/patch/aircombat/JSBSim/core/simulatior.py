@@ -3,7 +3,7 @@ import logging
 import numpy as np
 from collections import deque
 from abc import ABC, abstractmethod
-from typing import Literal, Union, List
+from typing import Literal, Union
 
 import jsbsim
 from .catalog import Property, Catalog

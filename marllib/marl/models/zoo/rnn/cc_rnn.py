@@ -20,7 +20,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import numpy as np
 from gym.spaces import Box, MultiDiscrete
 from ray.rllib.utils.framework import try_import_tf, try_import_torch
 from marllib.marl.models.zoo.rnn.base_rnn import BaseRNN
@@ -28,7 +27,6 @@ from ray.rllib.models.torch.misc import SlimFC, normc_initializer
 from ray.rllib.utils.annotations import override
 from functools import reduce
 from torch.optim import Adam
-from torch.nn.utils import parameters_to_vector, vector_to_parameters
 from marllib.marl.models.zoo.encoder.cc_encoder import CentralizedEncoder
 
 tf1, tf, tfv = try_import_tf()

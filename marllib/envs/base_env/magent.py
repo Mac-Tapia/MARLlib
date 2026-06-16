@@ -23,7 +23,7 @@
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
 from gym.spaces import Dict as GymDict, Box
 import supersuit as ss
-from ray.rllib.env import PettingZooEnv, ParallelPettingZooEnv
+from ray.rllib.env import PettingZooEnv
 from pettingzoo.magent import adversarial_pursuit_v3, battle_v3, battlefield_v3, combined_arms_v5, gather_v3, \
     tiger_deer_v3
 

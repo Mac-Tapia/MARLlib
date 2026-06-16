@@ -68,7 +68,7 @@ class GatherEnv(Env):
         # Add agents
         obj = ObjFromXML("particle", name="agent0")
         floor.append(obj)
-        obj.mark(f"object0")
+        obj.mark("object0")
         # Add food sites
         for i in range(self.n_food):
             floor.mark(f"food{i}", (.5, .5, 0.05), rgba=(0., 1., 0., 1.))

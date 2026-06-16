@@ -1,9 +1,7 @@
 import numpy as np
 from gym import spaces
-from typing import Tuple
-import torch
 
-from .multiplecombat_task import MultipleCombatTask, HierarchicalMultipleCombatTask, HierarchicalMultipleCombatShootTask
+from .multiplecombat_task import MultipleCombatTask, HierarchicalMultipleCombatTask
 
 
 

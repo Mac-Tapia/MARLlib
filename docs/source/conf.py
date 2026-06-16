@@ -12,8 +12,6 @@
 #
 import os
 import sys
-import inspect
-import shutil
 
 
 __location__ = os.path.dirname(

@@ -20,10 +20,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import numpy as np
 from gym.spaces import Box, MultiDiscrete
 from functools import reduce
-from torch.nn.utils import parameters_to_vector, vector_to_parameters
 from ray.rllib.models.torch.misc import SlimFC, normc_initializer
 from ray.rllib.utils.annotations import override
 from ray.rllib.utils.framework import try_import_torch

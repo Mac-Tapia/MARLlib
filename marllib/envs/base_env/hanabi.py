@@ -23,7 +23,7 @@
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
 from marllib.patch.hanabi.Hanabi_Env import HanabiEnv
 import numpy as np
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict, Box
 
 policy_mapping_dict = {
     "all_scenario": {

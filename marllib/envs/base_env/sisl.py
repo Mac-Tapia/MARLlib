@@ -21,9 +21,9 @@
 # SOFTWARE.
 
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from gym.spaces import Dict as GymDict, Discrete, Box
+from gym.spaces import Dict as GymDict
 import supersuit as ss
-from ray.rllib.env import PettingZooEnv, ParallelPettingZooEnv
+from ray.rllib.env import ParallelPettingZooEnv
 from pettingzoo.sisl import multiwalker_v7, pursuit_v3, waterworld_v3
 import time
 

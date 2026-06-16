@@ -1,11 +1,8 @@
 import numpy as np
 
-from marllib.patch.aircombat.JSBSim.envs import SingleCombatEnv, SingleControlEnv, MultipleCombatEnv
-import torch
-import gym
-from gym.spaces import Dict as GymDict, Box
+from marllib.patch.aircombat.JSBSim.envs import MultipleCombatEnv
+from gym.spaces import Dict as GymDict
 from ray.rllib.env.multi_agent_env import MultiAgentEnv
-from ray.tune.utils import merge_dicts
 
 policy_mapping_dict = {
     "MultipleCombat_2v2/NoWeapon/Selfplay": {

@@ -5,7 +5,7 @@ from copy import deepcopy
 import logging
 import traceback
 import sys
-from marllib.patch.hns.ma_policy.variable_schema import VariableSchema, BATCH, TIMESTEPS
+from marllib.patch.hns.ma_policy.variable_schema import VariableSchema, BATCH
 from marllib.patch.hns.ma_policy.util import shape_list
 from marllib.patch.hns.ma_policy.layers import (entity_avg_pooling_masked, entity_max_pooling_masked,
                               entity_concat, concat_entity_masks, residual_sa_block,

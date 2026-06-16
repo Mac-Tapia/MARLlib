@@ -1,8 +1,6 @@
 import tensorflow as tf
 import numpy as np
 import gym
-import logging
-import sys
 from copy import deepcopy
 from functools import partial
 from collections import OrderedDict

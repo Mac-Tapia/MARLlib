@@ -24,9 +24,8 @@ import ray
 import gym
 from ray import tune
 from ray.rllib.utils.framework import try_import_tf, try_import_torch
-from ray.rllib.policy.policy import PolicySpec
 from marllib.marl.algos.scripts import POlICY_REGISTRY
-from marllib.marl.common import recursive_dict_update, dict_update
+from marllib.marl.common import dict_update
 from marllib.marl.algos.run_cc import restore_config_update
 
 tf1, tf, tfv = try_import_tf()

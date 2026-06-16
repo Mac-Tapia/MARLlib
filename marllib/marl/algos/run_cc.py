@@ -23,7 +23,7 @@
 import ray
 import gym
 from ray import tune
-from ray.rllib.utils.framework import try_import_tf, try_import_torch
+from ray.rllib.utils.framework import try_import_torch
 from marllib.marl.algos.scripts import POlICY_REGISTRY
 from marllib.marl.common import recursive_dict_update, dict_update
 

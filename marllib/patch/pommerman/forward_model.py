@@ -431,7 +431,7 @@ class ForwardModel(object):
 
         for num_bomb, bomb in enumerate(curr_bombs):
             if desired_bomb_positions[num_bomb] == bomb.position and \
-               not num_bomb in agent_indexed_by_kicked_bomb:
+               num_bomb not in agent_indexed_by_kicked_bomb:
                 # Bomb was not kicked this turn and its desired position is its
                 # current location. Stop it just in case it was moving before.
                 bomb.stop()
